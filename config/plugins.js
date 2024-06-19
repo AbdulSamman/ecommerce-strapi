@@ -17,3 +17,22 @@ module.exports = ({ env }) => ({
     },
     // ...
   });
+
+  // sendGrid
+
+  module.exports = ({ env }) => ({
+    // ...
+    email: {
+      config: {
+        provider: 'sendgrid',
+        providerOptions: {
+          apiKey: env(`SENDGRID_API_KEY`),
+        },
+        settings: {
+          defaultFrom: 'tkservas@gmail.com',
+          defaultReplyTo: 'boudiii89@gmail.com',
+        },
+      },
+    },
+    // ...
+  });
