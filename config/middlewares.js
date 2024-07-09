@@ -25,6 +25,12 @@ module.exports = [
 
 
   'strapi::cors',
+  {
+    name: 'strapi::cors',
+    config: {
+      origin: ['http://localhost:3000', 'https://technicalserv.netlify.app/'],
+    },
+  },
   'strapi::poweredBy',
   'strapi::query',
   'strapi::body',
