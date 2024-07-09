@@ -1,5 +1,13 @@
 module.exports = [
   'strapi::logger',
+  {
+
+    config: {
+      level: 'debug',
+      exposeInContext: true,
+      requests: true,
+    }
+  },
   'strapi::errors',
 
     {
