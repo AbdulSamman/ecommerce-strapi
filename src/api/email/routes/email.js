@@ -4,7 +4,7 @@ module.exports = {
   routes: [
     {
       method: 'POST',
-      path: '/api/email',
+      path: 'email',
       handler: 'email.index',
       config: {
         policies: [],
