@@ -90,3 +90,20 @@ module.exports = ({ env }) => {
     },
   };
 };
+// defaultConnection: 'default',
+
+// connection: {
+// client: 'postgres',
+// connection: {
+//   host: env('DATABASE_HOST', 'localhost'),
+//   port: env.int('DATABASE_PORT', 5432),
+//   database: env('DATABASE_NAME', 'bank_t7jl'),
+//   user: env('DATABASE_USERNAME', 'abidal'),
+//   password: env('DATABASE_PASSWORD', 'ceISTfCX0fzIx5AwM7xzJtzTWzhwBVIq'),
+//   schema: env('DATABASE_SCHEMA', 'public'),
+//   ssl: {
+//     rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false),
+//   },
+// },
+// debug: false,
+// },
